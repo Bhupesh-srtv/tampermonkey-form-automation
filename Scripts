@@ -3,7 +3,7 @@
 // @namespace    http://tampermonkey.net/
 // @version      1.7
 // @description  Detects EWR, adds docs, opens each form one at a time
-// @author       You
+// @author       Bhupesh Shrivastav
 // @match        URL to your portal domain/*
 // @grant        none
 // ==/UserScript==
