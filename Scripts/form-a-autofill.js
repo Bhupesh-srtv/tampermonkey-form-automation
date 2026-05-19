@@ -75,8 +75,8 @@
         checkItByIndex('[name="fav_language"][data-radioattr="checkedB"]', 1);
         checkIt('[name="fav_radio"][data-templatevalue="Flow.IsUnavailabe"]');
         setValue('div:nth-child(7) > div > input', 'EMAILED');
-        setValue('[name="SpName"]', 'LAURA ATTAR');
-        setValue('[name="SPSign"]', 'LAURA ATTAR');
+        setValue('[name="SpName"]', 'Vendor Name');
+        setValue('[name="SPSign"]', 'Vendor Sign');
         setValue('[name="date"]', new Date().toLocaleDateString('en-US'));
 
         setTimeout(autoPrint, 3000);
